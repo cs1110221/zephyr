@@ -242,11 +242,11 @@ a
 
 .footer
 {
-	margin-top: 68px;
+	margin-top: 10px;
 	margin-left:2px;
 	margin-right:0px;
-	margin-bottom:0px;
-	height: 30px;
+	margin-bottom:70px;
+	height: 20px;
 }
 
 .footer a
@@ -256,23 +256,20 @@ a
 
 .footerobject, .footerobject:hover
 {
-	height:100%;
-	width:24.85%;
-	background: #29415D;
+	height:40%;
+	width:24.8%;
 	float:left;
-	border: solid 1px #bbb;
+	
 }
 
 .footerobject:hover
 {
-	background: #D91A40;
+	color:blue;
 }
 
 .footeritem
 {
-	font-size: 16px;
-	color: white;
-	margin-top:2%;
-	margin-bottom:2%;
-	padding:0px;
+	font-size: 20px;
+	color: black;
+	padding:2px;
 }
