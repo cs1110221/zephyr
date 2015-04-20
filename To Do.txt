@@ -1,4 +1,23 @@
-Course Data (Files)
-Online
-Actual Data
-Footer Links
+login page
+about us
+help
+feedback
+Home
+
+UI
+
+
+1. Change name of iPortal to zephyr
+2. Change login UI
+3. othercourses - notification-top right
+				courses name - middle area
+				profile - left side
+				about us - consistent
+				
+4.home - consistent with othercourses
+5. inobx /outbox/compose - menu on the left / consistent with othercourses 
+6. changepassword - make consistent
+
+7.profile - display photo
+8. changepassword - upload pic
+9.courses - remove course list
