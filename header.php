@@ -1,6 +1,6 @@
 
 <!-- The header for each page of the portal -->
-
+<?php include_once('footer.php'); ?>
 <div class='topbar'>
 
 		<form action="search_results.php" method='post' class='form-search span7'>
@@ -27,40 +27,43 @@
 				}
 			?>
 			
-			<button type='submit' class='btn' style="margin-top:5px; margin-left:5px">Search</button>
+			<button type='submit' class='btn' style="margin-top:10px; margin-left:5px">Search</button>
 			<input type='hidden' value= <?php echo curPageURL(); ?> name='currurl' />
 		</form>
+		
 
-		<a href='logout.php'><img
-			src="images/icons/logout1.png" class='topbaricon'
-			onmouseover="this.src='images/icons/logout3.png';"
-			onmouseout="this.src='images/icons/logout1.png';"
-			title='Logout'></a>
+    <nav class="menu">
+        <ul class="clearfix">
+           
+            <li>
+                <a href="#">Notifications<span class="arrow">&#9660;</span></a>
+ 
+                <ul class="sub-menu">
+				<li>
+                    <div class="notificationslist">
 
-		<a href='changePassword.php'><img
-			src="images/icons/settings1.png" class='topbaricon'
-			onmouseover="this.src='images/icons/settings3.png';"
-			onmouseout="this.src='images/icons/settings1.png';"
-			title='Settings'></a>
+					<?php
 
-		<a href='profile.php?userid=<?php echo $_SESSION['userid'];?>'><p class="topbarprofiletext" title="Profile"><?php echo $_SESSION['name'];?></p></a>
+						$notifications = get_all_notifications($_SESSION['userid']);
 
-		<a href='profile.php?userid=<?php echo $_SESSION['userid'];?>'><img
-			src="images/icons/profile1.png" class='topbaricon'
-			onmouseover="this.src='images/icons/profile3.png';"
-			onmouseout="this.src='images/icons/profile1.png';"
-			title='Profile'></a>
+						$notificationssize = sizeof($notifications);
 
-		<a href='inbox.php'><img
-			src="images/icons/messages1.png" class='topbaricon'
-			onmouseover="this.src='images/icons/messages3.png';"
-			onmouseout="this.src='images/icons/messages1.png';"
-			title='Messages'></a>
+						for($i=0;$i<$notificationssize;$i++)
+						{
+							echo('<a href="courses.php?courseid='.$notifications[$i]['courseid'].'"><div class="notificationitem">');
+							echo('<p><b>'. get_course_pretty_id($notifications[$i]['courseid']) . ': </b>'. $notifications[$i]['notification'] . '</p>');
+							echo('</div></a>');
+						}
+					
+					?>
 
-		<a href='home.php'><img
-			src="images/icons/home1.png" class='topbaricon'
-			onmouseover="this.src='images/icons/home3.png';"
-			onmouseout="this.src='images/icons/home1.png';"
-			title='Home'></a>
+				</div>
+				</li>
+                </ul>
+            </li>
+            
+        </ul>
+    </nav>
+	
 
 </div>

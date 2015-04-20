@@ -1,4 +1,4 @@
-<?php
+o<?php
 	session_start();
 	require_once('connectiondata.php');
 	require_once('functions.php');
