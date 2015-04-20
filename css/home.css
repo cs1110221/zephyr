@@ -20,7 +20,7 @@ a
 .topbar
 {
 	height:40px;
-	background: #D91A40;
+	background: #0404B4;
 }
 
 .topbaricon
@@ -45,8 +45,7 @@ a
 {
 	width:900px;
 	height:500px;
-	margin-left:auto;
-	margin-right:auto;
+	position: relative;
 }
 
 .coursesouter

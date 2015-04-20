@@ -21,7 +21,7 @@ a
 .topbar
 {
 	height:40px;
-	background: #D91A40;
+	background: #0404B4;
 }
 
 .topbaricon
@@ -41,7 +41,18 @@ a
 	color: white;
 	margin-top: 12px;
 }
+.side-nav{
+  width:15%;
+}
 
+.side-nav ul{
+  display: block;
+  margin-top:5%;
+  width: 15%;
+}
+
+.side-nav ul li {list-style: none}
+.side-nav ul li a{display:inline-block; float: left;text-decoration:none;}
 .main
 {
 	width:1200px;
@@ -51,72 +62,12 @@ a
 	margin-top:10px;
 }
 
-.courseslist
-{
-	width:18%;
-	height:100%;
-	margin-right:10px;
-	float:right;
-	border: solid 1px #bbb;
-}
-
-.mycourseslistheader
-{
-	height:52px;
-	margin:0px;
-	padding-top:22px;
-	border-bottom: solid 1px #bbb;
-}
-
-.courseslistheaderh3
-{
-	margin:0;
-	font: 170% arial;
-	color: #4F81BD;
-}
-
-.courseslistmain
-{
-	width:85%;
-	padding-top:10px;
-	padding-bottom:20px;
-	padding-left:13px;
-	padding-right:10px;
-}
-
-.courseslistmainitem, .courseslistmainitem:hover, .courseslistmainitemselected
-{
-	height:6.6%;
-	width: 100%;
-	margin-top:5px;
-	margin-bottom:5px;
-	padding-top:4px;
-	border: solid 1px #bbb;
-}
-
-.courseslistmainitemselected
-{
-	background: pink;
-}
-
-.courseslistmainitem:hover, .courseslistmainitemselected:hover
-{
-	background: #ddd;
-}
-
-.courselistitemname
-{
-	font: 150% arial;
-	color: #4F81BD;
-	margin:0px;
-	padding:0px;
-}
 
 .coursecontainer
 {
 	width:80%;
 	height:100%;
-	float:right;	
+	margin-left:17%;	
 	border: solid 1px #bbb;
 }
 
@@ -159,9 +110,9 @@ a
 
 .optionlist
 {
-	height: 90%;
+	height:90%;
 	width:25%;
-	float:left;
+	margin-top:0;
 	padding-top:20px;
 	padding-bottom:20px;
 	padding-left:10px;
@@ -202,13 +153,11 @@ a
 
 .mainframe
 {
-	width:70%;
-	margin-left:1%;
-	margin-top:1%;
-	height:97%;
-	float:left;
-	overflow: auto;
-	overflow-y: auto;
+	width:52%;
+	height:90%;
+	position:absolute;
+	margin-left:20%;
+
 }
 
 .introdata
@@ -291,38 +240,32 @@ a
 }
 
 .footer
-{
-	margin-top: 48px;
-	margin-left:2px;
-	margin-right:0px;
-	margin-bottom:0px;
-	height: 30px;
+{	background: #0404B4;
+	margin-bottom:12px;
+	height: 5px;
+	width:100%;
+	
 }
 
-.footer a
-{
-	text-decoration: none;
-}
 
-.footerobject, .footerobject:hover
+
+.footerobject
 {
-	height:100%;
-	width:24.85%;
-	background: #29415D;
+	height:40%;
+	width:25%;
 	float:left;
-	border: solid 1px #bbb;
+	background: #0404B4;
+	
 }
 
 .footerobject:hover
 {
-	background: #D91A40;
+	color:#FF0000;
 }
 
 .footeritem
 {
-	font-size: 16px;
+	font-size: 20px;
 	color: white;
-	margin-top:2%;
-	margin-bottom:2%;
-	padding:0px;
+	background: #0404B4;
 }

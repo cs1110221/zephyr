@@ -21,7 +21,7 @@
 
 <div class="mainBody">
 
-	<?php include_once('header.php'); ?>
+	<?php include_once('header1.php'); ?>
 	
 	<div class="main" >
 					

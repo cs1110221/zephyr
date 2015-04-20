@@ -21,7 +21,7 @@ a
 .topbar
 {
 	height:40px;
-	background: #D91A40;
+	background: #0404B4;
 }
 
 .topbaricon
@@ -41,9 +41,21 @@ a
 	color: white;
 	margin-top: 12px;
 }
+.side-nav{
+  width:15%;
+}
 
+.side-nav ul{
+  display: block;
+  margin-top:5%;
+  width: 15%;
+}
+
+.side-nav ul li {list-style: none}
+.side-nav ul li a{display:inline-block; float: left;text-decoration:none;}
 .main
 {
+
 	width:800px;
 	height:475px;
 	margin-left:auto;
@@ -56,7 +68,7 @@ a
 	width:25%;
 	height:100%;
 	margin-right:10px;
-	float:left;
+	margin-top:0;
 	border: solid 1px #bbb;
 }
 
@@ -114,10 +126,12 @@ a
 
 .generalinfoouter
 {
-	width:72%;
+	width:60%;
 	height:100%;
-	margin-right:10px;
-	float:left;
+	margin-top:0;
+	margin-left:15%;
+	position:absolute;
+	
 }
 
 .generalinfoinner
@@ -156,38 +170,32 @@ a
 }
 
 .footer
-{
-	margin-top: 63px;
-	margin-left:2px;
-	margin-right:0px;
-	margin-bottom:0px;
-	height: 30px;
+{	background: #0404B4;
+	margin-bottom:12px;
+	height: 5px;
+	width:100%;
+	
 }
 
-.footer a
-{
-	text-decoration: none;
-}
 
-.footerobject, .footerobject:hover
+
+.footerobject
 {
-	height:100%;
-	width:24.85%;
-	background: #29415D;
+	height:40%;
+	width:25%;
 	float:left;
-	border: solid 1px #bbb;
+	background: #0404B4;
+	
 }
 
 .footerobject:hover
 {
-	background: #D91A40;
+	color:#FF0000;
 }
 
 .footeritem
 {
-	font-size: 16px;
+	font-size: 20px;
 	color: white;
-	margin-top:2%;
-	margin-bottom:2%;
-	padding:0px;
+	background: #0404B4;
 }

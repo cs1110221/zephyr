@@ -1,4 +1,4 @@
-o<?php
+<?php
 	session_start();
 	require_once('connectiondata.php');
 	require_once('functions.php');
@@ -21,7 +21,7 @@ o<?php
 
 <div class="mainBody">
 
-	<?php include_once('header.php'); ?>
+	<?php include_once('header1.php'); ?>
 	
 	<div class="main" >
 					

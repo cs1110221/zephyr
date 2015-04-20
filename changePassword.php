@@ -20,9 +20,10 @@
 
 <div class="mainBody">
 
-	<?php include_once('header.php'); ?>
-
-	<div class="main">
+	<?php include_once('header1.php'); ?>
+		
+<?php include_once('menu.php'); ?>
+	<div class="password">
 	
 		<center>
 		<h3 class='CPheading'>Change Password</h3>
@@ -69,7 +70,7 @@
 		
 	</div>
 
-	<?php include_once('footer.php'); ?>
+	
 	
 </body>
 </html>
