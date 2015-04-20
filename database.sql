@@ -162,6 +162,7 @@ CREATE TABLE IF NOT EXISTS `usercourse` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `userid` int(11) NOT NULL,
   `courseid` int(3) NOT NULL,
+  `profilepic` varchar(64) DEFAULT 'images/profiles/default-user.png',
   PRIMARY KEY (`id`),
   KEY `courseid` (`courseid`),
   KEY `userid` (`userid`)
