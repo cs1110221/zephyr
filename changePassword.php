@@ -38,6 +38,18 @@
 			
 		</form>
 		</center>
+
+		<center>
+		<h3 class='CPheading'>Upload Profile pic</h3>
+		
+		<form align='center' class='CPform' action='uploadpic.php' method='post'>
+			<input type='file' id="myfile" name="dp" style="margin-top:20px" />
+			<br>
+			<button type='submit' class='btn' style="width:160px; margin-top:20px; margin-right:10px">Upload</button>
+			
+		</form>
+		</center>
+		
 		<?php
 
 			if(isset($_SESSION['sent']))
