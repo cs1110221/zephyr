@@ -1,12 +1,5 @@
-1.about us
-2.help
-3.feedback
-	
-4.home - consistent with othercourses
-5. inobx /outbox/compose - menu on the left / consistent with othercourses 
-6.profile page
-7.course page
-
+change /update dataset ..sql
+check functionality
 7.profile - display photo
 8. changepassword - upload pic
 
