@@ -48,21 +48,22 @@ a
 	position: relative;
 }
 .side-nav{
-  width:10%;
+  width:15%;
 }
 
 .side-nav ul{
   display: block;
   margin-top:5%;
-  width: 10%;
+  width: 15%;
 }
+
 .side-nav ul li {list-style: none}
-.side-nav ul li a{display:block; float: left;text-decoration:none;}
+.side-nav ul li a{display:inline-block; float: left;text-decoration:none;}
 .coursesouter
 {
-	width:80%;
+	width:90%;
 	height:100%;
-	margin-left:12%;
+	margin-left:17%;
 	margin-top:5%;
 
 }
@@ -92,7 +93,7 @@ a
 
 .addcoursebutton, .addcoursebutton:hover
 {
-	width:10%;
+	width:7%;
 	margin-left:100%;
 	border: solid 1px #bbb;
 }
@@ -124,10 +125,9 @@ a
 .coursebox, .coursebox:hover
 {
 	height:28%;
-	width:30%;
+	width:20%;
 	margin:5px;
 	float: left;
-	border: solid 1px #bbb;
 }
 
 .coursebox:hover
@@ -175,7 +175,7 @@ a
 
 
 
-.footerobject, .footerobject:hover
+.footerobject
 {
 	height:40%;
 	width:25%;
@@ -186,7 +186,7 @@ a
 
 .footerobject:hover
 {
-	color:blue;
+	color:#FF0000;
 }
 
 .footeritem
