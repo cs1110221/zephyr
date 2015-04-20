@@ -4,7 +4,7 @@
 	
 4.home - consistent with othercourses
 5. inobx /outbox/compose - menu on the left / consistent with othercourses 
-6. changepassword - make consistent
+
 
 7.profile - display photo
 8. changepassword - upload pic

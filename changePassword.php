@@ -23,7 +23,7 @@
 	<?php include_once('header1.php'); ?>
 		
 <?php include_once('menu.php'); ?>
-	<div class="main">
+	<div class="password">
 	
 		<center>
 		<h3 class='CPheading'>Change Password</h3>
