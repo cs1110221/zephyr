@@ -26,7 +26,7 @@
 	
 		<center>
 		<h3 class='CPheading'>Change Password</h3>
-		</center>
+		
 		<form align='center' class='CPform' action='changePwdAction.php' method='post'>
 			<input type='password' class='input-large search-query span4' style='height:35px;margin-bottom:10px;margin-top:30px' placeholder='Type old password...' name='old_pwd' />
 			<input type='password' class='input-large search-query span4' style='height:35px;margin-bottom:10px;' placeholder='Type current password...' name='curr_pwd1' />
@@ -36,7 +36,7 @@
 			<button type='reset' class='btn' style="width:160px; margin-top:20px; margin-left:10px">Clear</button>
 			
 		</form>
-			</center>
+		</center>
 		<?php
 
 			if(isset($_SESSION['sent']))
