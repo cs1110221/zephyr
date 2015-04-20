@@ -115,8 +115,8 @@ CREATE TABLE IF NOT EXISTS `messages` (
 
 INSERT INTO `messages` (`id`, `rid`, `sid`, `subject`, `content`, `seen`, `timestamp1`) VALUES
 (1, 8, 13, '', 'Hi', 0, '2013-11-29 08:39:00'),
-(4, 10, 13, 'Class Today ?', 'Sir,\r\nDo we have a class today ?\r\n\r\nYours Sincerely\r\nRam Agrawal\r\n\r\n', 0, '2013-11-30 05:02:15'),
-(6, 4, 10, 'Class Today', 'Yes we have a class today from 6:15:7:30', 0, '2013-11-30 05:05:13');
+(4, 10, 13, 'Quiz schedule ?', 'Sir,\r\nDo we have a quiz tomorrow ?\r\n\r\nYours Sincerely\r\nHimanshu Godara\r\n\r\n', 0, '2013-11-30 05:02:15'),
+(6, 4, 10, 'Quiz schedule', 'Yes there is a quiz tomorrow from 6:15:7:30', 0, '2013-11-30 05:05:13');
 
 -- --------------------------------------------------------
 
@@ -242,9 +242,9 @@ CREATE TABLE IF NOT EXISTS `userlist` (
 
 INSERT INTO `userlist` (`id`, `username`, `password`, `type`, `name`, `departmentid`) VALUES
 (1, 'admin', '21232f297a57a5a743894a0e4a801fc3', 1, 'Administrator', 1),
-(2, 'cs1110251', '146d9fce875b75ab3da1fc325c7a18c4', 3, 'Sahil Agrawal', 1),
-(3, 'cs1110201', 'a70a464a3f58e45d52e167f1a5534712', 3, 'Abdul Khalid', 1),
-(4, 'cs1110246', 'ef6c4c5a057a2981fba79fa95e352f73', 3, 'Ram Agrawal', 1),
+(2, 'cs1110221', '34e16ac7518c9939fbacc01dd6035bcc', 3, 'Himanshu Godara', 1),
+(3, 'cs1110236', 'c8622f4f76a9d26f5b4b446409e2a34f', 3, 'Nikhil Kumar', 1),
+(4, 'cs1110237', 'e4da521fa0ca9e2433bde18341d368db', 3, 'Nikhil Sahu', 1),
 (5, 'ssen', '256e08816e850722d983eeffbc8166de', 2, 'Sandeep Sen', 1),
 (6, 'adhawan', '30c9bea93d2cdcda9a4350304b5f1294', 2, 'Anuj Dhawan', 2),
 (7, 'harish', '698c9634246010398e8c427bdd12d374', 2, 'Harish Hirani', 3),
@@ -253,7 +253,7 @@ INSERT INTO `userlist` (`id`, `username`, `password`, `type`, `name`, `departmen
 (10, 'scgupta', '50a56dc2db84301a763fe74cd2fa4754', 2, 'S.C. Gupta', 1),
 (11, 'saran', '2208639860dda3f5c6bf627bbe3657c7', 2, 'Huzur Saran', 1),
 (12, 'kkb', 'b7ce7616ad0078889c45d6771679bb28', 2, 'K.K. Biswas', 1),
-(13, 'ram', 'e2fc714c4727ee9395f324cd2e7f331f', 3, 'Ram Agrawal', 1);
+(13, 'ashima', 'f38cc316899db3b38b68275ebbcdd23b', 3, 'Ashima Garg', 1);
 
 --
 -- Constraints for dumped tables
