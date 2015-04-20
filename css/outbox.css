@@ -20,7 +20,7 @@ a
 .topbar
 {
 	height:40px;
-	background: #D91A40;
+	background: #0404B4;
 }
 
 .topbaricon
@@ -156,38 +156,32 @@ a
 }
 
 .footer
-{
-	margin-top: 38px;
-	margin-left:2px;
-	margin-right:0px;
-	margin-bottom:0px;
-	height: 30px;
+{	background: #0404B4;
+	margin-bottom:12px;
+	height: 5px;
+	width:100%;
+	
 }
 
-.footer a
-{
-	text-decoration: none;
-}
 
-.footerobject, .footerobject:hover
+
+.footerobject
 {
-	height:100%;
-	width:24.85%;
-	background: #29415D;
+	height:40%;
+	width:25%;
 	float:left;
-	border: solid 1px #bbb;
+	background: #0404B4;
+	
 }
 
 .footerobject:hover
 {
-	background: #D91A40;
+	color:#FF0000;
 }
 
 .footeritem
 {
-	font-size: 16px;
+	font-size: 20px;
 	color: white;
-	margin-top:2%;
-	margin-bottom:2%;
-	padding:0px;
+	background: #0404B4;
 }
