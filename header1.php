@@ -29,4 +29,6 @@
 			<button type='submit' class='btn' style="margin-top:10px; margin-left:5px">Search</button>
 			<input type='hidden' value= <?php echo curPageURL(); ?> name='currurl' />
 		</form>
+		<a href='profile.php?userid=<?php echo $_SESSION['userid'];?>'><p class="topbarprofiletext" title="Profile" style="float:right;font-size:125%;font-style:italic;color:#F78181"><?php echo $_SESSION['name'];?></p></a>
+		
 		</div>
