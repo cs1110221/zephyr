@@ -25,10 +25,20 @@
 
 <div class="mainBody">
 
-	<?php include_once('header.php'); ?>
+	<?php include_once('header1.php'); ?>
+	<?php include_once('menu.php'); ?>
 	
 	<div class="main">
-
+<div class="generalinfoouter">
+			<div class="generalinfoinner">
+				<center>
+				<h3 class='InfoName'><?php echo(get_name($_GET['userid'])) ?></h3>
+				<h3 class='InfoType'><?php echo(get_user_type($_GET['userid'])) ?></h3>
+				<h3 class='InfoDep'><?php echo(getDepartmentName(get_department_id($_GET['userid']))) ?></h3>
+				<h3 class='InfoUsername'>Username: <?php echo(get_username($_GET['userid'])) ?></h3>
+				</center>
+			</div>
+		</div>
 		<!-- List of the courses followed by the user -->
 
 		<div class="courseslist">
@@ -56,19 +66,9 @@
 
 		<!-- General Information of the user -->
 
-		<div class="generalinfoouter">
-			<div class="generalinfoinner">
-				<center>
-				<h3 class='InfoName'><?php echo(get_name($_GET['userid'])) ?></h3>
-				<h3 class='InfoType'><?php echo(get_user_type($_GET['userid'])) ?></h3>
-				<h3 class='InfoDep'><?php echo(getDepartmentName(get_department_id($_GET['userid']))) ?></h3>
-				<h3 class='InfoUsername'>Username: <?php echo(get_username($_GET['userid'])) ?></h3>
-				</center>
-			</div>
-		</div>
+		
 	</div>
 	
-	<?php include_once('footer.php'); ?>
 
 </body>
 </html>
