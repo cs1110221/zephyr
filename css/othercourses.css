@@ -47,6 +47,7 @@ a
 	height:500px;
 	position: relative;
 }
+
 .side-nav{
   width:15%;
 }
@@ -166,6 +167,7 @@ a
 
 
 
+
 .footer
 {	background: #0404B4;
 	margin-bottom:12px;
@@ -270,4 +272,22 @@ a
  
 .sub-menu li a:hover, .sub-menu .current-item a {
     background:#CEE3F6;
+}
+
+.password
+{
+	width:600px;
+	height:330px;
+	margin-top:80px;
+	margin-left:17%;
+	padding-top:20px;
+	border: solid 1px #bbb;
+}
+
+.CPheading
+{
+	margin:0px;
+	padding:0px;
+	font: 170% arial;
+	color: #4F81BD; !important
 }
