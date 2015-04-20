@@ -128,6 +128,7 @@ a
 	width:20%;
 	margin:5px;
 	float: left;
+	border: solid 1px #bbb;
 }
 
 .coursebox:hover

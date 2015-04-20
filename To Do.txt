@@ -8,6 +8,5 @@
 
 7.profile - display photo
 8. changepassword - upload pic
-9.courses - remove course list
 
-10. courselist : remove grid view
+
